@@ -25,9 +25,9 @@ body {
     display: grid;
     place-items: center;
     height: 100vh;
-    background-image: url(../images/pattern-background-mobile.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../images/pattern-background-desktop.svg), #E1E9Ff;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
     font-family: var(--family);
     
 }
@@ -57,7 +57,7 @@ body {
 .description {
     line-height: 1.6;
     padding: 10px;
-    margin-top: 15px;
+    margin: 15px 40px;
     font-size: 1rem;
     text-align: center;
     color: var(--desatured-blue);
